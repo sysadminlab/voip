@@ -43,8 +43,8 @@
         <mxCell id="-TdVQ2mUSapPiThazIke-22" value="[from_sipp_uac]&lt;br&gt;exten =&amp;gt; _X.,1,NoOp(Входящий вызов от SIPp UAC: ${EXTEN})&lt;br&gt;exten =&amp;gt; _X.,n,Set(CALLERID(num)=sipp_uac)&amp;nbsp; ; Опционально: задаём Caller ID&lt;br&gt;exten =&amp;gt; _X.,n,Dial(PJSIP/sipp-uas@sipp-uas-outbound)&amp;nbsp; ; Перенаправляем на SIPp UAS&lt;br&gt;exten =&amp;gt; _X.,n,Hangup()&lt;br&gt;&lt;br&gt;[sipp-uas-outbound]&lt;br&gt;exten =&amp;gt; sipp-uas,1,NoOp(Исходящий вызов к SIPp UAS)&lt;br&gt;exten =&amp;gt; sipp-uas,n,Dial(PJSIP/sipp-uas/sipp@192.168.0.21:5060)&amp;nbsp;&amp;nbsp;&lt;br&gt;exten =&amp;gt; sipp-uas,n,Hangup()&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="289.5" y="70" width="600.5" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="-TdVQ2mUSapPiThazIke-23" value="[sipp-uac-1]&lt;br&gt;type=endpoint&lt;br&gt;context=from-ast&amp;nbsp;&lt;br&gt;allow=!all,ulaw,alaw&lt;br&gt;direct_media=no&lt;br&gt;transport=transport-udp&lt;br&gt;aors = sipp-uac-aor-1&lt;br&gt;&lt;br&gt;[sipp-uac-aor-1]&lt;br&gt;type=aor&lt;br&gt;contact = sip:192.168.0.51&lt;br&gt;qualify_frequency = 60&lt;br&gt;&lt;br&gt;[sipp-uac-identify]&lt;br&gt;type = identify&lt;br&gt;endpoint = sipp-uac-1&lt;br&gt;match = 192.168.0.51" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="120" y="320" width="200" height="320" as="geometry" />
+        <mxCell id="-TdVQ2mUSapPiThazIke-23" value="&lt;div&gt;[transport-udp]&lt;br&gt;type=transport&lt;br&gt;protocol=udp&lt;br&gt;bind=0.0.0.0&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[sipp-uac-1]&lt;/div&gt;type=endpoint&lt;br&gt;context=from-ast&amp;nbsp;&lt;br&gt;allow=!all,ulaw,alaw&lt;br&gt;direct_media=no&lt;br&gt;transport=transport-udp&lt;br&gt;aors = sipp-uac-aor-1&lt;br&gt;&lt;br&gt;[sipp-uac-aor-1]&lt;br&gt;type=aor&lt;br&gt;contact = sip:192.168.0.51&lt;br&gt;qualify_frequency = 60&lt;br&gt;&lt;br&gt;[sipp-uac-identify]&lt;br&gt;type = identify&lt;br&gt;endpoint = sipp-uac-1&lt;br&gt;match = 192.168.0.51" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="110" y="220" width="200" height="440" as="geometry" />
         </mxCell>
         <mxCell id="-TdVQ2mUSapPiThazIke-24" value="[sipp-uas]&lt;br&gt;type=endpoint&lt;br&gt;context=sipp-uas-outbound&lt;br&gt;allow=!all,ulaw,alaw&lt;br&gt;transport=transport-udp&lt;br&gt;aors=sipp-uas-aor&lt;br&gt;&lt;br&gt;[sipp-uas-aor]&lt;br&gt;type=aor&lt;br&gt;contact=sip:192.168.0.21:5060&amp;nbsp;&lt;br&gt;&lt;br&gt;[sipp-uas-auth]&lt;br&gt;type=auth&lt;br&gt;auth_type=userpass&lt;br&gt;username=sipp-uas&lt;br&gt;password=123456&amp;nbsp;&amp;nbsp;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="840" y="320" width="220" height="327" as="geometry" />
@@ -54,7 +54,7 @@
         </mxCell>
         <UserObject label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;pjsip.conf&lt;/h1&gt;" link="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;pjsip.conf&lt;/h1&gt;" id="ZcfYFnTC1-iHWNx_7WrN-2">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="120" y="270" width="150" height="70" as="geometry" />
+            <mxGeometry x="110" y="180" width="150" height="70" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;pjsip.conf&lt;/h1&gt;" link="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;pjsip.conf&lt;/h1&gt;" id="ZcfYFnTC1-iHWNx_7WrN-3">
