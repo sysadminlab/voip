@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.5">
   <diagram name="Страница — 1" id="rCfnhZvIq9waGADby3YH">
-    <mxGraphModel dx="1157" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1246" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -65,6 +65,26 @@
         <UserObject label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;extensions.conf&lt;/h1&gt;" link="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;extensions.conf&lt;/h1&gt;" id="ZcfYFnTC1-iHWNx_7WrN-4">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
             <mxGeometry x="289.5" y="30" width="220" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="https://docs.asterisk.org/Asterisk_22_Documentation/API_Documentation/Module_Configuration/res_pjsip/" link="https://docs.asterisk.org/Asterisk_22_Documentation/API_Documentation/Module_Configuration/res_pjsip/" id="ZcfYFnTC1-iHWNx_7WrN-6">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="110" y="720" width="650" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="https://docs.asterisk.org/Asterisk_22_Documentation/API_Documentation/Dialplan_Functions/" link="https://docs.asterisk.org/Asterisk_22_Documentation/API_Documentation/Dialplan_Functions/" id="ZcfYFnTC1-iHWNx_7WrN-7">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="110" y="740" width="530" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="https://docs.asterisk.org/Asterisk_22_Documentation/API_Documentation/Dialplan_Applications/" link="https://docs.asterisk.org/Asterisk_22_Documentation/API_Documentation/Dialplan_Applications/" id="ZcfYFnTC1-iHWNx_7WrN-8">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="110" y="760" width="560" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="https://sipp.readthedocs.io/en/latest/" link="https://sipp.readthedocs.io/en/latest/" id="ZcfYFnTC1-iHWNx_7WrN-9">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="110" y="700" width="230" height="40" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
