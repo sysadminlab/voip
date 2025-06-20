@@ -46,7 +46,7 @@
         <mxCell id="-TdVQ2mUSapPiThazIke-23" value="&lt;div&gt;[transport-udp]&lt;br&gt;type=transport&lt;br&gt;protocol=udp&lt;br&gt;bind=0.0.0.0&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[sipp-uac-1]&lt;/div&gt;type=endpoint&lt;br&gt;context=from_sipp_uac&lt;br&gt;allow=!all,ulaw,alaw&lt;br&gt;direct_media=no&lt;br&gt;transport=transport-udp&lt;br&gt;aors = sipp-uac-aor-1&lt;br&gt;&lt;br&gt;[sipp-uac-aor-1]&lt;br&gt;type=aor&lt;br&gt;contact = sip:172.30.1.2&lt;br&gt;qualify_frequency = 60&lt;br&gt;&lt;br&gt;[sipp-uac-identify]&lt;br&gt;type = identify&lt;br&gt;endpoint = sipp-uac-1&lt;br&gt;&lt;div&gt;match = 172.30.1.2&lt;/div&gt;&lt;div&gt;;-----&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="110" y="220" width="200" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="-TdVQ2mUSapPiThazIke-24" value="[sipp-uas-1]&lt;br&gt;type=endpoint&lt;br&gt;context=sipp-uas-outbound&lt;br&gt;allow=!all,ulaw,alaw&lt;br&gt;transport=transport-udp&lt;br&gt;aors=sipp-uas-aor&lt;br&gt;&lt;br&gt;[sipp-uas-1-aor]&lt;br&gt;type=aor&lt;br&gt;contact=sip:172.30.1.2:5065&amp;nbsp;&lt;br&gt;&lt;br&gt;[sipp-uas-1-auth]&lt;br&gt;type=auth&lt;br&gt;auth_type=userpass&lt;br&gt;username=sipp-uas&lt;br&gt;password=123456&amp;nbsp;&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="-TdVQ2mUSapPiThazIke-24" value="[sipp-uas-1]&lt;br&gt;type=friend&lt;br&gt;host=172.30.1.2&lt;br&gt;port=5065&lt;br&gt;fromdomain=172.30.1.2&lt;br&gt;context=sipp-uas-outbound&lt;br&gt;insecure=port,invite&lt;br&gt;qualify=no&lt;br&gt;dtmfmode=rfc2833&lt;br&gt;canreinvite=no&lt;br&gt;disallow=all&lt;br&gt;allow=ulaw,alaw" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="840" y="320" width="220" height="327" as="geometry" />
         </mxCell>
         <mxCell id="ZcfYFnTC1-iHWNx_7WrN-1" value="&lt;u&gt;Запустите SIPp UAS (сервер):&lt;br&gt;sipp -sn uas -p 5065 -i 172.30.1.2&lt;br&gt;&lt;br&gt;Запустите SIPp UAC (клиент):&lt;br&gt;&lt;/u&gt;sipp -sn uac 172.30.1.2 -i 172.30.1.2&lt;u&gt;&lt;br&gt;&lt;br&gt;Проверьте вызовы в Asterisk:&lt;br&gt;asterisk -rx &quot;pjsip show endpoints&quot;&lt;br&gt;asterisk -rx &quot;core show channels&quot;&lt;/u&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
@@ -57,7 +57,7 @@
             <mxGeometry x="110" y="180" width="150" height="30" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;pjsip.conf&lt;/h1&gt;" link="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;pjsip.conf&lt;/h1&gt;" id="ZcfYFnTC1-iHWNx_7WrN-3">
+        <UserObject label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;sip.conf&lt;/h1&gt;" link="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;pjsip.conf&lt;/h1&gt;" id="ZcfYFnTC1-iHWNx_7WrN-3">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
             <mxGeometry x="840" y="270" width="150" height="70" as="geometry" />
           </mxCell>
