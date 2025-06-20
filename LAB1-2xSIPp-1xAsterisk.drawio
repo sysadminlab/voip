@@ -1,28 +1,28 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.5">
   <diagram name="Страница — 1" id="rCfnhZvIq9waGADby3YH">
-    <mxGraphModel dx="1013" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1800" dy="1076" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-TdVQ2mUSapPiThazIke-2" value="SIPp uac.xml" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="289.5" y="583" width="110" height="30" as="geometry" />
+          <mxGeometry x="289.5" y="527" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-TdVQ2mUSapPiThazIke-4" value="SIPp uas.xml" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="714" y="583" width="110" height="30" as="geometry" />
+          <mxGeometry x="714" y="527" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-TdVQ2mUSapPiThazIke-5" value="" style="shape=mxgraph.cisco.modems_and_phones.softphone;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="738.5" y="503" width="61" height="56" as="geometry" />
+          <mxGeometry x="738.5" y="447" width="61" height="56" as="geometry" />
         </mxCell>
         <mxCell id="-TdVQ2mUSapPiThazIke-6" value="" style="shape=mxgraph.cisco.modems_and_phones.softphone;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="314" y="503" width="61" height="56" as="geometry" />
+          <mxGeometry x="314" y="447" width="61" height="56" as="geometry" />
         </mxCell>
         <mxCell id="-TdVQ2mUSapPiThazIke-7" value="" style="shape=mxgraph.cisco.misc.cisco_unity_express;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="521.5" y="303" width="77" height="67" as="geometry" />
+          <mxGeometry x="521.5" y="247" width="77" height="67" as="geometry" />
         </mxCell>
         <mxCell id="-TdVQ2mUSapPiThazIke-8" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="-TdVQ2mUSapPiThazIke-6" target="-TdVQ2mUSapPiThazIke-7" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="514" y="463" as="sourcePoint" />
-            <mxPoint x="674" y="463" as="targetPoint" />
+            <mxPoint x="514" y="407" as="sourcePoint" />
+            <mxPoint x="674" y="407" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-TdVQ2mUSapPiThazIke-9" value="CALL FLOW" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="-TdVQ2mUSapPiThazIke-8" connectable="0" vertex="1">
@@ -30,61 +30,61 @@
         </mxCell>
         <mxCell id="-TdVQ2mUSapPiThazIke-12" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="-TdVQ2mUSapPiThazIke-7" target="-TdVQ2mUSapPiThazIke-5" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="514" y="463" as="sourcePoint" />
-            <mxPoint x="674" y="463" as="targetPoint" />
+            <mxPoint x="514" y="407" as="sourcePoint" />
+            <mxPoint x="674" y="407" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-TdVQ2mUSapPiThazIke-13" value="CALL FLOW" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="-TdVQ2mUSapPiThazIke-12" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-TdVQ2mUSapPiThazIke-16" value="Asterisk" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="530" y="383" width="60" height="30" as="geometry" />
+          <mxGeometry x="530" y="327" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-TdVQ2mUSapPiThazIke-22" value="[from_sipp_uac]&lt;br&gt;exten =&amp;gt; service,1,NoOp(Inbound call from SIPp UAC: ${EXTEN})&lt;br&gt;same =&amp;gt; n,Set(CALLERID(num)=sipp_uac)&lt;br&gt;same =&amp;gt; n,Dial(SIP/service@sipp-uas-1,30)&lt;br&gt;same =&amp;gt; n,Hangup()&lt;br&gt;&lt;br&gt;[sipp-uas-outbound]&lt;br&gt;exten =&amp;gt; _X.,1,Hangup()&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="320" y="180" width="460.5" height="170" as="geometry" />
+          <mxGeometry x="320" y="124" width="460.5" height="170" as="geometry" />
         </mxCell>
         <mxCell id="-TdVQ2mUSapPiThazIke-23" value="&lt;div&gt;[transport-udp]&lt;br&gt;type=transport&lt;br&gt;protocol=udp&lt;br&gt;bind=0.0.0.0&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[sipp-uac-1]&lt;/div&gt;type=endpoint&lt;br&gt;context=from_sipp_uac&lt;br&gt;allow=!all,ulaw,alaw&lt;br&gt;direct_media=no&lt;br&gt;transport=transport-udp&lt;br&gt;aors = sipp-uac-aor-1&lt;br&gt;&lt;br&gt;[sipp-uac-aor-1]&lt;br&gt;type=aor&lt;br&gt;contact = sip:172.30.1.2&lt;br&gt;qualify_frequency = 60&lt;br&gt;&lt;br&gt;[sipp-uac-identify]&lt;br&gt;type = identify&lt;br&gt;endpoint = sipp-uac-1&lt;br&gt;&lt;div&gt;match = 172.30.1.2&lt;/div&gt;&lt;div&gt;;-----&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="110" y="220" width="200" height="440" as="geometry" />
+          <mxGeometry x="110" y="164" width="200" height="440" as="geometry" />
         </mxCell>
         <mxCell id="-TdVQ2mUSapPiThazIke-24" value="&lt;div&gt;[general]&lt;/div&gt;&lt;div&gt;udpbindaddr=0.0.0.0:5061&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[sipp-uas-1]&lt;/div&gt;type=friend&lt;br&gt;host=172.30.1.2&lt;br&gt;port=5065&lt;br&gt;fromdomain=172.30.1.2&lt;br&gt;context=sipp-uas-outbound&lt;br&gt;insecure=port,invite&lt;br&gt;qualify=no&lt;br&gt;dtmfmode=rfc2833&lt;br&gt;canreinvite=no&lt;br&gt;disallow=all&lt;br&gt;allow=ulaw,alaw" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="840" y="320" width="220" height="327" as="geometry" />
+          <mxGeometry x="840" y="264" width="220" height="327" as="geometry" />
         </mxCell>
         <mxCell id="ZcfYFnTC1-iHWNx_7WrN-1" value="&lt;u&gt;Запустите SIPp UAS (сервер):&lt;br&gt;&lt;/u&gt;sipp -sn uac 172.30.1.2 -d 10000 -i 172.30.1.2&lt;u&gt;&lt;br&gt;&lt;br&gt;Запустите SIPp UAC (клиент):&lt;br&gt;&lt;/u&gt;sipp -sn uac 172.30.1.2 -i 172.30.1.2&lt;u&gt;&lt;br&gt;&lt;br&gt;Проверьте вызовы в Asterisk:&lt;br&gt;asterisk -rx &quot;pjsip show endpoints&quot;&lt;br&gt;asterisk -rx &quot;core show channels&quot;&lt;/u&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="410" y="493" width="340.5" height="187" as="geometry" />
+          <mxGeometry x="410" y="437" width="340.5" height="187" as="geometry" />
         </mxCell>
         <UserObject label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;pjsip.conf&lt;/h1&gt;" link="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;pjsip.conf&lt;/h1&gt;" id="ZcfYFnTC1-iHWNx_7WrN-2">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="110" y="180" width="150" height="30" as="geometry" />
+            <mxGeometry x="110" y="124" width="150" height="30" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;sip.conf&lt;/h1&gt;" link="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;pjsip.conf&lt;/h1&gt;" id="ZcfYFnTC1-iHWNx_7WrN-3">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="840" y="270" width="150" height="70" as="geometry" />
+            <mxGeometry x="840" y="214" width="150" height="70" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;extensions.conf&lt;/h1&gt;" link="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;extensions.conf&lt;/h1&gt;" id="ZcfYFnTC1-iHWNx_7WrN-4">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="320" y="140" width="220" height="40" as="geometry" />
+            <mxGeometry x="320" y="84" width="220" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="https://docs.asterisk.org/Asterisk_22_Documentation/API_Documentation/Module_Configuration/res_pjsip/" link="https://docs.asterisk.org/Asterisk_22_Documentation/API_Documentation/Module_Configuration/res_pjsip/" id="ZcfYFnTC1-iHWNx_7WrN-6">
           <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
-            <mxGeometry x="110" y="720" width="650" height="50" as="geometry" />
+            <mxGeometry x="110" y="664" width="650" height="50" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="https://docs.asterisk.org/Asterisk_22_Documentation/API_Documentation/Dialplan_Functions/" link="https://docs.asterisk.org/Asterisk_22_Documentation/API_Documentation/Dialplan_Functions/" id="ZcfYFnTC1-iHWNx_7WrN-7">
           <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
-            <mxGeometry x="110" y="740" width="530" height="40" as="geometry" />
+            <mxGeometry x="110" y="684" width="530" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="https://docs.asterisk.org/Asterisk_22_Documentation/API_Documentation/Dialplan_Applications/" link="https://docs.asterisk.org/Asterisk_22_Documentation/API_Documentation/Dialplan_Applications/" id="ZcfYFnTC1-iHWNx_7WrN-8">
           <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
-            <mxGeometry x="110" y="760" width="560" height="40" as="geometry" />
+            <mxGeometry x="110" y="704" width="560" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="sudo apt install asterisk sip-tester" link="https://sipp.readthedocs.io/en/latest/" id="ZcfYFnTC1-iHWNx_7WrN-9">
           <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
-            <mxGeometry x="110" y="680" width="230" height="40" as="geometry" />
+            <mxGeometry x="110" y="624" width="230" height="40" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
