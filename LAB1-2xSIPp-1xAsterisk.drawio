@@ -82,9 +82,9 @@
             <mxGeometry x="110" y="760" width="560" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="https://sipp.readthedocs.io/en/latest/" link="https://sipp.readthedocs.io/en/latest/" id="ZcfYFnTC1-iHWNx_7WrN-9">
+        <UserObject label="sudo apt install asterisk sip-tester" link="https://sipp.readthedocs.io/en/latest/" id="ZcfYFnTC1-iHWNx_7WrN-9">
           <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
-            <mxGeometry x="110" y="700" width="230" height="40" as="geometry" />
+            <mxGeometry x="110" y="680" width="230" height="40" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
