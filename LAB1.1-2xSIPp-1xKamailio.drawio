@@ -46,7 +46,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="Ddu2mmI_zF8PH8FrGgqN-2" value="&lt;u&gt;Запустите SIPp UAS (сервер):&lt;br&gt;&lt;/u&gt;sipp -aa -sn uas -p 5065&lt;br&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;div&gt;&lt;u&gt;Запустите SIPp UAC (клиент):&lt;/u&gt;&lt;/div&gt;&lt;div&gt;sipp sip.mydomain.com:5065 -sn uac -rsa sip.mydomain.com:5060 -d 3000 -r 1000&lt;/div&gt;&lt;u&gt;&lt;br&gt;&lt;br&gt;&lt;/u&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="20" y="125" width="570" height="110" as="geometry" />
+          <mxGeometry x="22.5" y="280" width="570" height="110" as="geometry" />
         </mxCell>
         <UserObject label="/* add local domain aliases - it can be set many times */&#xa;alias=&quot;sip.mydomain.com&quot;" link="/* add local domain aliases - it can be set many times */&#xa;alias=&quot;sip.mydomain.com&quot;" id="Ddu2mmI_zF8PH8FrGgqN-3">
           <mxCell style="text;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
@@ -66,9 +66,9 @@
         <mxCell id="Ddu2mmI_zF8PH8FrGgqN-7" value="/etc/hosts" style="text;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="730" y="190" width="134" height="40" as="geometry" />
         </mxCell>
-        <UserObject label="sipp -sd uac &gt; uac.xml&#xa;sed -i &#39;s/\[(local|remote)_ip\]/sip.mydomain.com/&#39; uac.xml" link="sed -i &#39;s/\[local_ip\]/sip.mydomain.com/&#39; uac.xml" id="Ddu2mmI_zF8PH8FrGgqN-8">
+        <UserObject label="sipp -sd uac &gt; uac.xml&#xa;sed -i &#39;s/\[remote_ip\]/sip.mydomain.com/&#39; uac.xml&#xa;sed -i &#39;s/\[local_ip\]/sip.mydomain.com/&#39; uac.xml" link="sed -i &#39;s/\[local_ip\]/sip.mydomain.com/&#39; uac.xml" id="Ddu2mmI_zF8PH8FrGgqN-8">
           <mxCell style="text;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
-            <mxGeometry x="22.5" y="240" width="380" height="50" as="geometry" />
+            <mxGeometry x="20" y="125" width="430" height="75" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
