@@ -42,9 +42,12 @@
         </mxCell>
         <UserObject label="sudo apt install kamailio sip-tester sngrep -y" link="https://sipp.readthedocs.io/en/latest/" id="Ddu2mmI_zF8PH8FrGgqN-1">
           <mxCell style="text;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
-            <mxGeometry x="140" y="210" width="310" height="40" as="geometry" />
+            <mxGeometry x="427" y="170" width="310" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="Ddu2mmI_zF8PH8FrGgqN-2" value="&lt;u&gt;Запустите SIPp UAS (сервер):&lt;br&gt;&lt;/u&gt;sipp -aa -sn uas -p 5065&lt;br&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;div&gt;&lt;u&gt;Запустите SIPp UAC (клиент):&lt;/u&gt;&lt;/div&gt;&lt;div&gt;sipp -aa -sn uac 172.30.1.2 -d 3000&lt;/div&gt;&lt;u&gt;&lt;br&gt;Проверьте вызовы в Asterisk:&lt;br&gt;asterisk -rx &quot;pjsip show endpoints&quot;&lt;br&gt;asterisk -rx &quot;core show channels&quot;&lt;/u&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="50" y="193" width="340.5" height="187" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
