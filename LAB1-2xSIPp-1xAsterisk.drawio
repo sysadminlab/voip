@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.6">
   <diagram name="Страница — 1" id="rCfnhZvIq9waGADby3YH">
-    <mxGraphModel dx="1246" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1239" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,52 +49,52 @@
         <mxCell id="-TdVQ2mUSapPiThazIke-24" value="&lt;div&gt;[sipp-uas-1]&lt;/div&gt;type=friend&lt;br&gt;host=172.30.1.2&lt;br&gt;port=5065&lt;br&gt;fromdomain=172.30.1.2&lt;br&gt;context=sipp-uas-outbound&lt;br&gt;insecure=port,invite&lt;br&gt;qualify=yes&lt;br&gt;dtmfmode=rfc2833&lt;br&gt;canreinvite=no&lt;br&gt;disallow=all&lt;br&gt;allow=ulaw,alaw" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1020" y="321" width="140" height="236" as="geometry" />
         </mxCell>
-        <mxCell id="ZcfYFnTC1-iHWNx_7WrN-1" value="&lt;u&gt;Запустите SIPp UAS (сервер):&lt;br&gt;&lt;/u&gt;sipp -aa -sn uas -p 5065&lt;br&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;div&gt;&lt;u&gt;Запустите SIPp UAC (клиент):&lt;/u&gt;&lt;/div&gt;&lt;div&gt;sipp -aa -sn uac 172.30.1.2 -d 3000&lt;/div&gt;&lt;u&gt;&lt;br&gt;Проверьте вызовы в Asterisk:&lt;br&gt;asterisk -rx &quot;pjsip show endpoints&quot;&lt;br&gt;asterisk -rx &quot;core show channels&quot;&lt;/u&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="ZcfYFnTC1-iHWNx_7WrN-1" value="&lt;u&gt;Запустите SIPp UAS (сервер):&lt;br&gt;&lt;/u&gt;sipp -aa -sn uas -p 5065&lt;br&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;div&gt;&lt;u&gt;Запустите SIPp UAC (клиент):&lt;/u&gt;&lt;/div&gt;&lt;div&gt;sipp -aa -sn uac 172.30.1.2 -d 3000&lt;/div&gt;&lt;u&gt;&lt;br&gt;Проверьте вызовы в Asterisk:&lt;br&gt;asterisk -rx &quot;pjsip show endpoints&quot;&lt;br&gt;asterisk -rx &quot;core show channels&quot;&lt;/u&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="410" y="437" width="340.5" height="187" as="geometry" />
         </mxCell>
         <UserObject label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;pjsip.conf&lt;/h1&gt;" link="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;pjsip.conf&lt;/h1&gt;" id="ZcfYFnTC1-iHWNx_7WrN-2">
-          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
             <mxGeometry x="110" y="124" width="150" height="30" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;sip.conf&lt;/h1&gt;" link="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;pjsip.conf&lt;/h1&gt;" id="ZcfYFnTC1-iHWNx_7WrN-3">
-          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
             <mxGeometry x="1020" y="214" width="120" height="36" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;extensions.conf&lt;/h1&gt;" link="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;extensions.conf&lt;/h1&gt;" id="ZcfYFnTC1-iHWNx_7WrN-4">
-          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
             <mxGeometry x="320" y="84" width="220" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="https://docs.asterisk.org/Asterisk_22_Documentation/API_Documentation/Module_Configuration/res_pjsip/" link="https://docs.asterisk.org/Asterisk_22_Documentation/API_Documentation/Module_Configuration/res_pjsip/" id="ZcfYFnTC1-iHWNx_7WrN-6">
-          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;" parent="1" vertex="1">
             <mxGeometry x="110" y="664" width="650" height="50" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="https://docs.asterisk.org/Asterisk_22_Documentation/API_Documentation/Dialplan_Functions/" link="https://docs.asterisk.org/Asterisk_22_Documentation/API_Documentation/Dialplan_Functions/" id="ZcfYFnTC1-iHWNx_7WrN-7">
-          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;" parent="1" vertex="1">
             <mxGeometry x="110" y="684" width="530" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="https://docs.asterisk.org/Asterisk_22_Documentation/API_Documentation/Dialplan_Applications/" link="https://docs.asterisk.org/Asterisk_22_Documentation/API_Documentation/Dialplan_Applications/" id="ZcfYFnTC1-iHWNx_7WrN-8">
-          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;" parent="1" vertex="1">
             <mxGeometry x="110" y="704" width="560" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="sudo apt install asterisk sip-tester" link="https://sipp.readthedocs.io/en/latest/" id="ZcfYFnTC1-iHWNx_7WrN-9">
-          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
-            <mxGeometry x="110" y="624" width="230" height="40" as="geometry" />
+        <UserObject label="sudo apt install asterisk sip-tester sngrep -y" link="https://sipp.readthedocs.io/en/latest/" id="ZcfYFnTC1-iHWNx_7WrN-9">
+          <mxCell style="text;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="110" y="624" width="240" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="ZcfYFnTC1-iHWNx_7WrN-19" value="&lt;div&gt;[general]&lt;/div&gt;&lt;div&gt;udpbindaddr=0.0.0.0:5061&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="ZcfYFnTC1-iHWNx_7WrN-19" value="&lt;div&gt;[general]&lt;/div&gt;&lt;div&gt;udpbindaddr=0.0.0.0:5061&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="1020" y="270" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ZcfYFnTC1-iHWNx_7WrN-20" value="[sipp-uas-1]&#xa;type=endpoint&#xa;context=sipp-uas-outbound&#xa;allow=!all,ulaw,alaw&#xa;direct_media=yes&#xa;transport=transport-udp&#xa;aors = sipp-uas-aor-1&#xa;&#xa;[sipp-uas-aor-1]&#xa;type=aor&#xa;contact = sip:172.30.1.2:5065&#xa;qualify_frequency = 60&#xa;&#xa;[sipp-uas-identify]&#xa;type = identify&#xa;endpoint = sipp-uas-1&#xa;match = 172.30.1.2" style="text;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="ZcfYFnTC1-iHWNx_7WrN-20" value="[sipp-uas-1]&#xa;type=endpoint&#xa;context=sipp-uas-outbound&#xa;allow=!all,ulaw,alaw&#xa;direct_media=yes&#xa;transport=transport-udp&#xa;aors = sipp-uas-aor-1&#xa;&#xa;[sipp-uas-aor-1]&#xa;type=aor&#xa;contact = sip:172.30.1.2:5065&#xa;qualify_frequency = 60&#xa;&#xa;[sipp-uas-identify]&#xa;type = identify&#xa;endpoint = sipp-uas-1&#xa;match = 172.30.1.2" style="text;whiteSpace=wrap;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="815" y="308.5" width="195" height="361.5" as="geometry" />
         </mxCell>
         <UserObject label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;pjsip.conf&lt;/h1&gt;" link="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;pjsip.conf&lt;/h1&gt;" id="ZcfYFnTC1-iHWNx_7WrN-21">
-          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
             <mxGeometry x="815" y="217" width="150" height="30" as="geometry" />
           </mxCell>
         </UserObject>
