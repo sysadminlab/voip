@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.6">
   <diagram name="Страница — 1" id="Erw--blzMtKx47dPTSw3">
-    <mxGraphModel dx="1576" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="754" dy="421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,8 +45,8 @@
             <mxGeometry x="427" y="170" width="310" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="Ddu2mmI_zF8PH8FrGgqN-2" value="&lt;u&gt;Запустите SIPp UAS (сервер):&lt;br&gt;&lt;/u&gt;sipp -aa -sn uas -p 5065&lt;br&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;div&gt;&lt;u&gt;Запустите SIPp UAC (клиент):&lt;/u&gt;&lt;/div&gt;&lt;div&gt;sipp -aa -sn uac 172.30.1.2 -d 3000&lt;/div&gt;&lt;u&gt;&lt;br&gt;Проверьте вызовы в Asterisk:&lt;br&gt;asterisk -rx &quot;pjsip show endpoints&quot;&lt;br&gt;asterisk -rx &quot;core show channels&quot;&lt;/u&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="50" y="193" width="340.5" height="187" as="geometry" />
+        <mxCell id="Ddu2mmI_zF8PH8FrGgqN-2" value="&lt;u&gt;Запустите SIPp UAS (сервер):&lt;br&gt;&lt;/u&gt;sipp -aa -sn uas -p 5065&lt;br&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;div&gt;&lt;u&gt;Запустите SIPp UAC (клиент):&lt;/u&gt;&lt;/div&gt;&lt;div&gt;sipp 172.30.1.2:5065 -sn uac -rsa 172.30.1.2:5060&lt;/div&gt;&lt;u&gt;&lt;br&gt;&lt;br&gt;&lt;/u&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="50" y="193" width="500" height="187" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
