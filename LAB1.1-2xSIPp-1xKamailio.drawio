@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.6">
+  <diagram name="Страница — 1" id="Erw--blzMtKx47dPTSw3">
+    <mxGraphModel dx="1576" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3eAIcPBEeX4sZWYrnUCx-1" value="SIPp uac.xml" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="317" y="539" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3eAIcPBEeX4sZWYrnUCx-2" value="SIPp uas.xml" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="741.5" y="539" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3eAIcPBEeX4sZWYrnUCx-3" value="" style="shape=mxgraph.cisco.modems_and_phones.softphone;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="766" y="459" width="61" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="3eAIcPBEeX4sZWYrnUCx-4" value="" style="shape=mxgraph.cisco.modems_and_phones.softphone;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="341.5" y="459" width="61" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="3eAIcPBEeX4sZWYrnUCx-5" value="" style="shape=mxgraph.cisco.misc.cisco_unity_express;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="549" y="259" width="77" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="3eAIcPBEeX4sZWYrnUCx-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="3eAIcPBEeX4sZWYrnUCx-4" target="3eAIcPBEeX4sZWYrnUCx-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="541.5" y="419" as="sourcePoint" />
+            <mxPoint x="701.5" y="419" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3eAIcPBEeX4sZWYrnUCx-7" value="CALL FLOW" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="3eAIcPBEeX4sZWYrnUCx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3eAIcPBEeX4sZWYrnUCx-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="3eAIcPBEeX4sZWYrnUCx-5" target="3eAIcPBEeX4sZWYrnUCx-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="541.5" y="419" as="sourcePoint" />
+            <mxPoint x="701.5" y="419" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3eAIcPBEeX4sZWYrnUCx-9" value="CALL FLOW" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="3eAIcPBEeX4sZWYrnUCx-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3eAIcPBEeX4sZWYrnUCx-10" value="Kamailio" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="555" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
