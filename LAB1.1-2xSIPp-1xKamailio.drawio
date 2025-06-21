@@ -45,7 +45,7 @@
             <mxGeometry x="427" y="170" width="310" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="Ddu2mmI_zF8PH8FrGgqN-2" value="&lt;u&gt;Запустите SIPp UAS (сервер):&lt;br&gt;&lt;/u&gt;sipp -aa -sn uas -p 5065&lt;br&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;div&gt;&lt;u&gt;Запустите SIPp UAC (клиент):&lt;/u&gt;&lt;/div&gt;&lt;div&gt;sipp 172.30.1.2:5065 -sn uac -rsa 172.30.1.2:5060&lt;/div&gt;&lt;u&gt;&lt;br&gt;&lt;br&gt;&lt;/u&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="Ddu2mmI_zF8PH8FrGgqN-2" value="&lt;u&gt;Запустите SIPp UAS (сервер):&lt;br&gt;&lt;/u&gt;sipp -aa -sn uas -p 5065&lt;br&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;div&gt;&lt;u&gt;Запустите SIPp UAC (клиент):&lt;/u&gt;&lt;/div&gt;&lt;div&gt;sipp 172.30.1.2:5065 -sn uac -rsa 172.30.1.2:5060 -d 3000 -r 1000&lt;/div&gt;&lt;u&gt;&lt;br&gt;&lt;br&gt;&lt;/u&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="50" y="193" width="500" height="187" as="geometry" />
         </mxCell>
       </root>
