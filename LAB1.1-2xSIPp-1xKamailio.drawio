@@ -48,14 +48,14 @@
         <mxCell id="Ddu2mmI_zF8PH8FrGgqN-2" value="&lt;u&gt;Запустите SIPp UAS (сервер):&lt;br&gt;&lt;/u&gt;sipp -aa -sn uas -p 5065&lt;br&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;div&gt;&lt;u&gt;Запустите SIPp UAC (клиент):&lt;/u&gt;&lt;/div&gt;&lt;div&gt;sipp 172.30.1.2:5065 -sn uac -rsa 172.30.1.2:5060 -d 3000 -r 1&lt;/div&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="20" y="120" width="570" height="110" as="geometry" />
         </mxCell>
-        <UserObject label="/* add local domain aliases - it can be set many times */&#xa;alias=&quot;sip.mydomain.com&quot;&#xa;alias=172.30.1.2" link="/* add local domain aliases - it can be set many times */&#xa;alias=&quot;sip.mydomain.com&quot;" id="Ddu2mmI_zF8PH8FrGgqN-3">
+        <UserObject label="sed -i &#39;s/route.AUTH./route\(RELAY\)/&#39; /etc/kamailio/kamailio.cfg&#xa;kamctl restart" link="/* add local domain aliases - it can be set many times */&#xa;alias=&quot;sip.mydomain.com&quot;" id="Ddu2mmI_zF8PH8FrGgqN-3">
           <mxCell style="text;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
-            <mxGeometry x="730" y="150" width="390" height="70" as="geometry" />
+            <mxGeometry x="680" y="150" width="460" height="70" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="kamailio.cfg" link="kamailio.cfg" id="Ddu2mmI_zF8PH8FrGgqN-4">
           <mxCell style="text;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
-            <mxGeometry x="730" y="100" width="100" height="40" as="geometry" />
+            <mxGeometry x="680" y="100" width="100" height="40" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
