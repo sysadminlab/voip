@@ -50,7 +50,7 @@
         </mxCell>
         <UserObject label="/* add local domain aliases - it can be set many times */&#xa;alias=&quot;sip.mydomain.com&quot;&#xa;alias=172.30.1.2" link="/* add local domain aliases - it can be set many times */&#xa;alias=&quot;sip.mydomain.com&quot;" id="Ddu2mmI_zF8PH8FrGgqN-3">
           <mxCell style="text;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
-            <mxGeometry x="730" y="310" width="390" height="70" as="geometry" />
+            <mxGeometry x="730" y="150" width="390" height="70" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="kamailio.cfg" link="kamailio.cfg" id="Ddu2mmI_zF8PH8FrGgqN-4">
