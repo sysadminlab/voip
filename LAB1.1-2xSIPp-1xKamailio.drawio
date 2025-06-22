@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.6">
   <diagram name="Страница — 1" id="Erw--blzMtKx47dPTSw3">
-    <mxGraphModel dx="1084" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="434" dy="242" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,7 +64,7 @@
         <mxCell id="Ddu2mmI_zF8PH8FrGgqN-10" value="Install Debuger module" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="20" y="240" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ddu2mmI_zF8PH8FrGgqN-11" value="kamctl srv version&#xa;wget https://www.kamailio.org/pub/kamailio/5.7.4/src/kamailio-5.7.4_src.tar.gz&#xa;tar -x -zf kamailio-5.7.4_src.tar.gz &amp;&amp; cd kamailio-5.7.4&#xa;make modules modules=src/modules/debugger/&#xa;&#xa;make install-modules modules=src/modules/db_mysql/ LIBDIR=usr/lib/x86_64-linux-gnu MYSQLON=yes modules_prefix= bin_target=/usr/sbin lib_dir=/usr/lib/x86_64-linux-gnu/kamailio data_target=/usr/share/kamailio&#xa;&#xa;" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Ddu2mmI_zF8PH8FrGgqN-11" value="kamctl srv version&#xa;wget https://www.kamailio.org/pub/kamailio/5.7.4/src/kamailio-5.7.4_src.tar.gz&#xa;tar -x -zf kamailio-5.7.4_src.tar.gz &amp;&amp; cd kamailio-5.7.4&#xa;make modules modules=src/modules/debugger/&#xa;&#xa;make install-modules modules=src/modules/debugger/ LIBDIR=usr/lib/x86_64-linux-gnu MYSQLON=yes modules_prefix= bin_target=/usr/sbin lib_dir=/usr/lib/x86_64-linux-gnu/kamailio data_target=/usr/share/kamailio&#xa;&#xa;" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="20" y="270" width="450" height="150" as="geometry" />
         </mxCell>
       </root>
