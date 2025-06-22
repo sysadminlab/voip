@@ -54,18 +54,21 @@
           </mxCell>
         </UserObject>
         <UserObject label="kamailio.cfg" link="kamailio.cfg" id="Ddu2mmI_zF8PH8FrGgqN-4">
-          <mxCell style="text;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;fontSize=20;fontStyle=4" vertex="1" parent="1">
             <mxGeometry x="626" y="100" width="100" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="Ddu2mmI_zF8PH8FrGgqN-9" value="Debug" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="Ddu2mmI_zF8PH8FrGgqN-9" value="Debug" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=4" vertex="1" parent="1">
           <mxGeometry x="800" y="250" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ddu2mmI_zF8PH8FrGgqN-10" value="Install Debuger module" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="Ddu2mmI_zF8PH8FrGgqN-10" value="Install Debuger module" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=4" vertex="1" parent="1">
           <mxGeometry x="20" y="240" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ddu2mmI_zF8PH8FrGgqN-11" value="kamctl srv version&#xa;wget https://www.kamailio.org/pub/kamailio/5.7.4/src/kamailio-5.7.4_src.tar.gz&#xa;tar -x -zf kamailio-5.7.4_src.tar.gz &amp;&amp; cd kamailio-5.7.4&#xa;make modules modules=src/modules/debugger/&#xa;&#xa;make install-modules modules=src/modules/debugger/ LIBDIR=usr/lib/x86_64-linux-gnu MYSQLON=yes modules_prefix= bin_target=/usr/sbin lib_dir=/usr/lib/x86_64-linux-gnu/kamailio data_target=/usr/share/kamailio&#xa;&#xa;vi /etc/kamailio/kamailio.cfg&#xa;    #!define WITH_DEBUG&#xa;    &#xa;kamctl restart&#xa;journalctl /usr/sbin/kamailio&#xa;&#xa;" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="20" y="270" width="450" height="230" as="geometry" />
+        <mxCell id="Ddu2mmI_zF8PH8FrGgqN-11" value="kamctl srv version&#xa;wget https://www.kamailio.org/pub/kamailio/5.7.4/src/kamailio-5.7.4_src.tar.gz&#xa;tar -x -zf kamailio-5.7.4_src.tar.gz &amp;&amp; cd kamailio-5.7.4&#xa;make modules modules=src/modules/debugger/&#xa;&#xa;make install-modules modules=src/modules/debugger/ LIBDIR=usr/lib/x86_64-linux-gnu MYSQLON=yes modules_prefix= bin_target=/usr/sbin lib_dir=/usr/lib/x86_64-linux-gnu/kamailio data_target=/usr/share/kamailio&#xa;&#xa;vi /etc/kamailio/kamailio.cfg&#xa;    #!define WITH_DEBUG&#xa;    &#xa;kamctl restart&#xa;&#xa;&#xa;" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="270" width="450" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ddu2mmI_zF8PH8FrGgqN-12" value="journalctl /usr/sbin/kamailio" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="286" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
