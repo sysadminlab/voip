@@ -50,14 +50,20 @@
         </mxCell>
         <UserObject label="sed -i &#39;s/route.AUTH./route\(RELAY\)/&#39; /etc/kamailio/kamailio.cfg&#xa;kamctl restart" link="/* add local domain aliases - it can be set many times */&#xa;alias=&quot;sip.mydomain.com&quot;" id="Ddu2mmI_zF8PH8FrGgqN-3">
           <mxCell style="text;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
-            <mxGeometry x="680" y="150" width="460" height="70" as="geometry" />
+            <mxGeometry x="626" y="150" width="460" height="70" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="kamailio.cfg" link="kamailio.cfg" id="Ddu2mmI_zF8PH8FrGgqN-4">
           <mxCell style="text;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
-            <mxGeometry x="680" y="100" width="100" height="40" as="geometry" />
+            <mxGeometry x="626" y="100" width="100" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="Ddu2mmI_zF8PH8FrGgqN-9" value="Debug" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="800" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ddu2mmI_zF8PH8FrGgqN-10" value="Install Debuger module" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="20" y="250" width="210" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
