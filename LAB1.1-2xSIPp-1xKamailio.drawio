@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.6">
   <diagram name="Страница — 1" id="Erw--blzMtKx47dPTSw3">
-    <mxGraphModel dx="2253" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1334" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,8 +45,8 @@
             <mxGeometry x="20" y="85" width="310" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="Ddu2mmI_zF8PH8FrGgqN-2" value="&lt;u&gt;Запустите SIPp UAS (сервер):&lt;br&gt;&lt;/u&gt;sipp -aa -sn uas -p 5065&lt;br&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;div&gt;&lt;u&gt;Запустите SIPp UAC (клиент):&lt;/u&gt;&lt;/div&gt;&lt;div&gt;sipp 172.30.1.2:5065 -sn uac -rsa 172.30.1.2:5060 -d 3000 -r 1000&lt;/div&gt;&lt;u&gt;&lt;br&gt;&lt;br&gt;&lt;/u&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="230" width="570" height="110" as="geometry" />
+        <mxCell id="Ddu2mmI_zF8PH8FrGgqN-2" value="&lt;u&gt;Запустите SIPp UAS (сервер):&lt;br&gt;&lt;/u&gt;sipp -aa -sn uas -p 5065&lt;br&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;div&gt;&lt;u&gt;Запустите SIPp UAC (клиент):&lt;/u&gt;&lt;/div&gt;&lt;div&gt;sipp 172.30.1.2:5065 -sn uac -rsa 172.30.1.2:5060 -d 3000 -r 1&lt;/div&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="20" y="120" width="570" height="110" as="geometry" />
         </mxCell>
         <UserObject label="/* add local domain aliases - it can be set many times */&#xa;alias=&quot;sip.mydomain.com&quot;&#xa;alias=172.30.1.2" link="/* add local domain aliases - it can be set many times */&#xa;alias=&quot;sip.mydomain.com&quot;" id="Ddu2mmI_zF8PH8FrGgqN-3">
           <mxCell style="text;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
@@ -55,20 +55,7 @@
         </UserObject>
         <UserObject label="kamailio.cfg" link="kamailio.cfg" id="Ddu2mmI_zF8PH8FrGgqN-4">
           <mxCell style="text;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
-            <mxGeometry x="730" y="270" width="100" height="40" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="172.30.1.2 sip.mydomain.com" link="172.30.1.2 sip.mydomain.com" id="Ddu2mmI_zF8PH8FrGgqN-6">
-          <mxCell style="text;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
-            <mxGeometry x="730" y="220" width="234" height="40" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="Ddu2mmI_zF8PH8FrGgqN-7" value="/etc/hosts" style="text;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="730" y="190" width="134" height="40" as="geometry" />
-        </mxCell>
-        <UserObject label="sipp -sd uac &gt; uac.xml&#xa;sed -i &#39;s/\[remote_ip\]/sip.mydomain.com/&#39; uac.xml&#xa;sed -i &#39;s/\[local_ip\]/sip.mydomain.com/&#39; uac.xml" link="sed -i &#39;s/\[local_ip\]/sip.mydomain.com/&#39; uac.xml" id="Ddu2mmI_zF8PH8FrGgqN-8">
-          <mxCell style="text;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
-            <mxGeometry x="20" y="125" width="430" height="75" as="geometry" />
+            <mxGeometry x="730" y="100" width="100" height="40" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
