@@ -1,9 +1,65 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.6">
   <diagram name="Страница — 1" id="9IdDLng8Uid9JJS4OAA9">
-    <mxGraphModel>
+    <mxGraphModel dx="1445" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="P6qeZLDPnzz3allWP9Fy-1" value="SIPp uac.xml" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="322" y="594" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P6qeZLDPnzz3allWP9Fy-2" value="SIPp uas.xml" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="746.5" y="594" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P6qeZLDPnzz3allWP9Fy-3" value="" style="shape=mxgraph.cisco.modems_and_phones.softphone;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="771" y="514" width="61" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="P6qeZLDPnzz3allWP9Fy-4" value="" style="shape=mxgraph.cisco.modems_and_phones.softphone;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="346.5" y="514" width="61" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="P6qeZLDPnzz3allWP9Fy-5" value="" style="shape=mxgraph.cisco.misc.cisco_unity_express;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="554" y="314" width="77" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="P6qeZLDPnzz3allWP9Fy-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="P6qeZLDPnzz3allWP9Fy-4" target="P6qeZLDPnzz3allWP9Fy-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="546.5" y="474" as="sourcePoint" />
+            <mxPoint x="706.5" y="474" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P6qeZLDPnzz3allWP9Fy-7" value="CALL FLOW" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="P6qeZLDPnzz3allWP9Fy-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P6qeZLDPnzz3allWP9Fy-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="P6qeZLDPnzz3allWP9Fy-5" target="P6qeZLDPnzz3allWP9Fy-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="546.5" y="474" as="sourcePoint" />
+            <mxPoint x="706.5" y="474" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P6qeZLDPnzz3allWP9Fy-9" value="CALL FLOW" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="P6qeZLDPnzz3allWP9Fy-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P6qeZLDPnzz3allWP9Fy-10" value="Asterisk" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="405" width="60" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="sudo apt install asterisk sip-tester sngrep -y" link="https://sipp.readthedocs.io/en/latest/" id="P6qeZLDPnzz3allWP9Fy-11">
+          <mxCell style="text;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
+            <mxGeometry x="25" y="140" width="310" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="P6qeZLDPnzz3allWP9Fy-12" value="&lt;u&gt;Запустите SIPp UAS (сервер):&lt;br&gt;&lt;/u&gt;sipp -aa -sn uas -p 5065&lt;br&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;div&gt;&lt;u&gt;Запустите SIPp UAC (клиент):&lt;/u&gt;&lt;/div&gt;&lt;div&gt;sipp 172.30.1.2:5065 -sn uac -rsa 172.30.1.2:5060 -d 3000 -r 1&lt;/div&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="25" y="175" width="570" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="P6qeZLDPnzz3allWP9Fy-19" value="" style="shape=mxgraph.cisco.misc.detector;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="240" width="77" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="P6qeZLDPnzz3allWP9Fy-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="P6qeZLDPnzz3allWP9Fy-5" target="P6qeZLDPnzz3allWP9Fy-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="530" as="sourcePoint" />
+            <mxPoint x="730" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P6qeZLDPnzz3allWP9Fy-21" value="Homer" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="808.5" y="314" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
